@@ -1,5 +1,5 @@
-numbers1 = float(input("please enter a number: "))
-numbers2 = float(input("please enter a number: "))
+numbers1 = float(input("please enter number: "))
+numbers2 = float(input("please enter number: "))
 calculations = input("Please enter any of the available signs +, -, *, /: ")
 if calculations == "+":
     result = numbers1 + numbers2
