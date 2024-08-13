@@ -1,5 +1,5 @@
 x = [10, 100, 200, 500, 5]
-a = x [:-1]
-y = x [-1:]
-z = y + a
-print(z)
+last_element = x [-1]
+x [1:] = x [:-1]
+x[0] = last_element
+print(x)
