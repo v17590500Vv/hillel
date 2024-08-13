@@ -1,4 +1,4 @@
-box = [1, 21, 31, 41, 51, 61]
+box = [1, 2, 3, 4, 5, 6]
 middle_index = (len(box) + 1) // 2
 first_half = box[:middle_index]
 second_half = box[middle_index:]
